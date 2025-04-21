@@ -137,10 +137,9 @@ src/
 |-------------------------------------|---------------|
 | CRUD de clientes                    | ✅ Concluído  |
 | Integração com ViaCEP               | ✅ Concluído  |
-| Uso de DTOs                         | ✅ Concluído  |
-| Swagger/OpenAPI                     | 🔄 Em andamento |
+| Swagger/OpenAPI                     | ✅ Concluído |
+| Autenticação com JWT                | 🔄 Em andamento  |
 | Dockerfile + Docker Compose         | 🔜 Próximo passo |
-| Autenticação com JWT                | 🔜 Planejado  |
 | Deploy (Render / Railway / AWS)    | 🔜 Planejado  |
 
 ---
