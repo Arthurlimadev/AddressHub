@@ -1,6 +1,6 @@
 # 🏠 AddressHub
 
-![Java](https://img.shields.io/badge/Java-17-blue?logo=java)
+![Java](https://img.shields.io/badge/Java-21-blue?logo=java)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen?logo=springboot)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
