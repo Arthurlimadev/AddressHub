@@ -1,6 +1,7 @@
 package com.addresshub.address.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 
 @Entity
 public class Cliente {
@@ -8,7 +9,11 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotBlank
     private String nome;
+
+    @NotBlank
     @ManyToOne
     private Endereco endereco;
 

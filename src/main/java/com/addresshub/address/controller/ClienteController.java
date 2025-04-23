@@ -2,8 +2,6 @@ package com.addresshub.address.controller;
 
 import com.addresshub.address.model.Cliente;
 import com.addresshub.address.service.ClienteService;
-import com.addresshub.address.service.impl.ClienteServiceImpl;
-import feign.Response;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
