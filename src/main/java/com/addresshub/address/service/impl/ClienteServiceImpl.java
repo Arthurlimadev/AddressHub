@@ -1,7 +1,7 @@
 package com.addresshub.address.service.impl;
 
-import com.addresshub.address.model.Cliente;
-import com.addresshub.address.model.Endereco;
+import com.addresshub.address.model.entity.Cliente;
+import com.addresshub.address.model.entity.Endereco;
 import com.addresshub.address.model.repository.ClienteRepository;
 import com.addresshub.address.model.repository.EnderecoRepository;
 import com.addresshub.address.service.ClienteService;

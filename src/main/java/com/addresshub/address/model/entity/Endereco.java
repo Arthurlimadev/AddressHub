@@ -1,4 +1,4 @@
-package com.addresshub.address.model;
+package com.addresshub.address.model.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

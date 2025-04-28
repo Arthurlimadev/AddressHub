@@ -1,6 +1,6 @@
 package com.addresshub.address.service;
 
-import com.addresshub.address.model.Cliente;
+import com.addresshub.address.model.entity.Cliente;
 
 public interface ClienteService {
 
