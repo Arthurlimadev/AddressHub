@@ -1,16 +1,19 @@
 package com.addresshub.address.service;
 
-import com.addresshub.address.model.entity.Cliente;
+import java.util.List;
+
+import com.addresshub.address.model.dto.ClienteRequestDTO;
+import com.addresshub.address.model.dto.ClienteResponseDTO;
 
 public interface ClienteService {
 
-    Iterable<Cliente> buscarTodos();
+    List<ClienteResponseDTO> buscarTodos();
 
-    Cliente buscarPorId(Long id);
+    ClienteResponseDTO buscarPorId(Long id);
 
-    void inserir(Cliente cliente);
+    ClienteResponseDTO inserir(ClienteRequestDTO clienteRequestDTO);
 
-    void atualizar(Long id, Cliente cliente);
+    ClienteResponseDTO atualizar(Long id, ClienteRequestDTO clienteRequestDTO);
 
     void delete(Long id);
 
