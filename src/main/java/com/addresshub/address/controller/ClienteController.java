@@ -2,14 +2,12 @@ package com.addresshub.address.controller;
 
 import com.addresshub.address.model.dto.ClienteRequestDTO;
 import com.addresshub.address.model.dto.ClienteResponseDTO;
-import com.addresshub.address.model.entity.Cliente;
 import com.addresshub.address.service.ClienteService;
 import io.swagger.v3.oas.annotations.Operation;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.actuate.autoconfigure.observation.ObservationProperties.Http;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
